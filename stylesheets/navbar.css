@@ -1,0 +1,30 @@
+
+
+.header {
+	background-color: rgba(77, 138, 159, .7);
+	height: 70px;
+	padding-right: 40px;
+	text-align: right;
+	margin: 55px 135px 130px 120px !important;
+}
+
+#img1 {
+
+    width: 180px;
+    height: 180px;
+    margin: -55px 0px 0px 100px;
+}
+
+#a_style {
+    margin: 20px 13px -3px 8px;
+    color: white;
+    font-size: 18px;  
+    text-decoration: none;
+    height: 50px;
+    border-right: 1px solid grey; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.img-circle {
+	border-radius: 80%;
+}

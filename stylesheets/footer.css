@@ -1,0 +1,33 @@
+.footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#680202+0,420101+44,280800+98 */
+background: rgb(104,2,2); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(104,2,2,1) 0%, rgba(66,1,1,1) 44%, rgba(40,8,0,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(104,2,2,1) 0%,rgba(66,1,1,1) 44%,rgba(40,8,0,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(104,2,2,1) 0%,rgba(66,1,1,1) 44%,rgba(40,8,0,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#680202', endColorstr='#280800',GradientType=1 ); /* IE6-9 */
+  margin: 250px 0px -100px 0px !important;
+  height: 100px;
+  width: 100% !important; 
+  padding: 20px 20px 20px 20px;
+}
+
+.icon_tag {
+  margin: 20px 180px 20px 20px;
+  width: 35px; 
+  height: 35px;
+}
+
+.align {
+  float: right;
+  margin-top: 20px;
+}
+
+
+#contact-info {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  padding: 0px 50px 20px 150px;
+  float: left;
+}
+

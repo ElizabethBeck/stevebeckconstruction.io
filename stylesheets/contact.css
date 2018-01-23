@@ -1,0 +1,36 @@
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000011+11,000011+11,000011+11,000011+11,000011+12,c6f4f1+12,c6f4f1+12,b8d1d3+87,000011+87,000011+87,000011+94,000011+94 */
+  background: #000011; /* Old browsers */
+  background: -moz-linear-gradient(left,  #000011 11%, #000011 11%, #000011 11%, #000011 11%, #000011 12%, #c6f4f1 12%, #c6f4f1 12%, #b8d1d3 87%, #000011 87%, #000011 87%, #000011 94%, #000011 94%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #000011 11%,#000011 11%,#000011 11%,#000011 11%,#000011 12%,#c6f4f1 12%,#c6f4f1 12%,#b8d1d3 87%,#000011 87%,#000011 87%,#000011 94%,#000011 94%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #000011 11%,#000011 11%,#000011 11%,#000011 11%,#000011 12%,#c6f4f1 12%,#c6f4f1 12%,#b8d1d3 87%,#000011 87%,#000011 87%,#000011 94%,#000011 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000011', endColorstr='#000011',GradientType=1 ); /* IE6-9 */
+
+}
+
+.img_steve {
+  margin: 10px 20px 10px -10px;
+  border-color: rgb(153 168 135);
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  vertical-align: left;
+  width: 300px;
+  height: 400px;
+
+}
+
+form {
+  margin: 30px 0px 20px 20px;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+h2 {
+  margin: 0px 0px 30px 20px;
+}
+
+p {
+  margin: -25px
+}

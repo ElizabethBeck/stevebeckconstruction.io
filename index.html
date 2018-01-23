@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>  
+  <title>Steve Beck Construction</title>
+  <script src="scripts/slideshow.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheets\slideshow.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets\index.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets\navbar.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets\footer.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<style>.mySlides {float: right; vertical-align: top; margin-top: -50px; margin-bottom: 100px;}</style>
+
+<head>
+
+<body>    
+<div class="wrapper">
+  <div class="header">
+	
+    <img id="img1" class="img-circle" src="images/logo.jpg" style="float: left;">
+   	
+	<a id="a_style" href="index.html" class="btn">Home</a>
+	<a id="a_style" href="gallery.html" class="btn">Gallery</a>
+	<a id="a_style" href="about.html" class="btn">About</a>
+	<a id="a_style" href="contact.html" class="btn">Contact</a>
+  <a id="a_style" href="https://www.etsy.com/people/stevebeckworkshop" class="btn">Store</a>
+
+  </div>
+  <br> 
+  <br>
+  <br>
+  
+  <div class="row">
+  <div class=" container col-sm-4">
+  	
+  	<ul class="services">
+  		<p id="list">&#9675; decks</p>
+  		<p id="list">&#9675; remodeling</p>
+  		<p id="list">&#9675; garages</p>
+  		<p id="list">&#9675; framing</p>
+  		<p id="list">&#9675; and more!</p>
+  	</ul>
+
+  </div>
+
+  <div class="w3-content w3-section slideshow container col-xs-4" style="max-width:700px">
+    <img class="mySlides w3-animate-fading" src="images\AfterKitchen.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading" src="images\AfterFireplace.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading" src="images\AfterSideporch.jpg" style="width:100%">
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1} 
+      x[slideIndex-1].style.display = "block"; 
+      setTimeout(carousel, 9000); // Change image every 5 seconds
+    }
+  </script>
+
+  <div class="serving col-xs-4">
+    <p>
+      
+      Steve Beck Construction: <br>
+      Serving Alamance County &amp; <br>
+      the Piedmont-Triangle <br>
+      for over 30 years.
+      <br>
+    </p>
+
+  </div>
+ 
+  </div>
+
+  <div class="footer">
+    
+    <p id="contact-info">
+      Located in Alamance County <br>
+      email: thestevebecks@yahoo.com <br>
+      or call: (dad number)
+    </p>
+
+    <a href="https://www.facebook.com/SteveBeckConstruction/?fref=ts" target="_blank"> <img class="icon_tag align" src="http://icons.iconarchive.com/icons/sicons/basic-round-social/512/facebook-icon.png"></a>
+  
+    <a href="contact.html" target="_top">	
+      <button type="button" class="btn btn-default btn-md align">
+  	
+  	  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+
+      </button>
+    </a>
+
+  </div>
+  </div>
+
+</body>
+
+</html>
+
